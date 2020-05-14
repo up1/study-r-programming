@@ -1,0 +1,5 @@
+x <- data.frame(foo = 1:4, bar = c(T, T, F, F)) 
+print(names(x))
+names(x) <- c("Col1", "Col2")
+print(names(x))
+print(x)

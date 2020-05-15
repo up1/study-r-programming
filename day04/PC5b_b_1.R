@@ -27,6 +27,5 @@ XX <- function (ftn, x0, tol = 1e-09, max.iter = 100) {
 
 for(i in (-5:5)) {
   temp <- XX(g1, i)
-  typeof(temp)
   cat(sprintf("X0=%2d Root=%f found in %d iterations\n", i, temp[1], temp[2]))
 }
